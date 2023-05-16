@@ -1,0 +1,12 @@
+For Running the Project
+Some File Should be included 
+1) Include https://pjreddie.com/media/files/yolov3.weights this weights file using the provided link.
+	Place this weights in yolo-coco folder.
+	Place the weights file in yolo-coco.
+
+For Running the project we need one input vedio file.
+sample video is included which is with name india.mp4
+
+So, Run the Command 
+python yolo_video.py --input india.mp4 --output highwayOut.avi --yolo yolo-coco 
+which take india.mp4 as input and stores the output in highwayOut.avi
